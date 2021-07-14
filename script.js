@@ -1,5 +1,10 @@
-let inputBtn = document.getElementById("input-btn")
+const inputBtn = document.getElementById("input-btn")
+const inputEl = document.getElementById("input-el")
+let myLeeds = []
 
 inputBtn.addEventListener("click", function() {
-  console.log("cliked from event")
+  myLeeds.push(inputEl.value)
+console.log(myLeeds)
+console.log(inputEl)
 })
+
