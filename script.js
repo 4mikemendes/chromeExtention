@@ -9,6 +9,9 @@ console.log(myLeeds)
 
 for (let i = 0; i < myLeeds.length; i++) {
  ulEl.innerHTML += "<li>" + myLeeds[i] + "</li>"
-
+ //or more confusing
+// const li = document.createElement("li")
+//   li.textContent = myLeeds[i]
+//   ulEl.append(li)
 }
 
