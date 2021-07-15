@@ -5,7 +5,8 @@ let myLeeds = []
 
 
 inputBtn.addEventListener("click", function() {
-  myLeeds.push(inputEl.value)
+ myLeeds.push(inputEl.value)
+ inputEl.value = " "
 console.log(myLeeds)
 renderLeads()
 })
