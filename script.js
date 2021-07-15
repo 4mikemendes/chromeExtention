@@ -18,7 +18,7 @@ for (let i = 0; i < myLeeds.length; i++) {
  // listItems += "<li><a target='_blank' href='" + myLeeds[i] + "'>" + myLeeds[i] + "</a></li>"
   listItems += `
     <li>
-      <a target='_blank' href=`${myLeeds[i]}`>
+      <a target='_blank' href= ${myLeeds[i]}>
         ${myLeeds[i]}
       </a>
     </li>`
