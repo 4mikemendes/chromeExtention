@@ -1,8 +1,13 @@
+//chrome://extensions/
 const inputBtn = document.getElementById("input-btn")
 const inputEl = document.getElementById("input-el")
 const ulEl = document.getElementById("ul-el")
-let myLeeds = []
+let myLeeds = `["It works!"]`
 
+myLeeds = JSON.parse(myLeeds)
+myLeeds.push("hahahahah")
+myLeeds = JSON.stringify(myLeeds)
+console.log(typeof myLeeds)
 
 inputBtn.addEventListener("click", function() {
  myLeeds.push(inputEl.value)
