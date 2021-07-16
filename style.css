@@ -23,7 +23,18 @@ padding-bottom: 30px;
 background-color: #5f9341;
 border: none;
 }
-
+#delete-btn {
+  height: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  background-color: white;
+  border: 1px solid  #5f9341;
+  margin-top: 10px;
+  color: #5f9341;
+  font-weight: bold;
+}
 #input-btn {
   margin-top: 10px;
   color: white;
