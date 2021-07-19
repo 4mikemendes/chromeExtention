@@ -35,6 +35,11 @@ border: none;
   color: #5f9341;
   font-weight: bold;
 }
+#save-btn {
+   margin-top: 10px;
+  color: white;
+  font-weight: bold;
+}
 #input-btn {
   margin-top: 10px;
   color: white;
